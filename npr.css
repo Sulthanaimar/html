@@ -1,25 +1,111 @@
 body{
     font-family: 'PT Sans', sans-serif;
-    padding: 0;
     margin: 0;
     font-size: 0.9em;
+    background-color: #f2f1f1;
 }
-a:link a:visited{
-    color: #4b4b4b;
+
+
+
+
+a:link, a:visited{
+    color: #4a4a4a;
     text-decoration: none;
 }
+
+
+
+
 .container{
-    width: 100%;
-    padding-top: 30px;
+    width: 1300px;
+    min-width: 768px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
+
+
 #header{
     display: flex;
 }
+
+
+
+
+.main-column{
+    flex-grow: 1;
+    margin-right: 20px;
+    text-align: right;
+}
+.side-column{
+    width: 300px;
+}
+
+
+
+
+.flex{
+    display: flex;
+}
+
+
+
+
+.red-button{
+    background-color: crimson;
+    padding: 6px 10px;
+    color: white;
+}
+.red-button a:link, .red-button a:visited{
+    color: white;
+}
+
+
+
+
+.content-box{
+    background-color: white;
+    padding: 20px;
+}
+.content-box img{
+    max-width: 100%;
+}
+.content-body{
+    flex-grow: 1;
+    text-align: left;
+}
+.content-body h5 h2{
+font-weight: bolder;
+}
+
+
+
+
+.gallery{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+}
+.gallery-content{
+    width: 250px;
+    padding-left: 10px;
+}
+
+
+
+
 #logo{
     width: 150px;
-    margin-left: 125px;
-    margin-bottom: 20px;
 }
+
+
+
+
 #global{
     flex-grow: 1;
     text-align: right;
@@ -31,34 +117,32 @@ a:link a:visited{
 #global ul li{
     display: inline;
     margin-left: 20px;
-    margin-right: 20px;
 }
-
-#global ul li a:link, #global ul li a:visited{
-    color: grey;
-    text-decoration: none;
-}
-
 #global ul li a:hover{
     color:lightgray;
     text-decoration: none;
 }
 
+
+
+
 #navigation{
     background-color: #4b4b4b;
-    padding: 1px 0;
+    padding: 0px 0;
 }
 #navigation ul li a:link, #navigation ul li a:visited{
     color: white;
     text-decoration: none;
-    padding-left: 85px;
 }
 #navigation ul li a:hover{
     color: lightgray;
 }
 #navigation ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 #navigation ul li{
     display: inline;
+    margin-right: 20px;
 }
