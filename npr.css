@@ -34,6 +34,9 @@ a:link, a:visited{
 
 
 
+#main-content{
+    width: 1000px;
+}
 .main-column{
     flex-grow: 1;
     margin-right: 20px;
@@ -58,8 +61,23 @@ a:link, a:visited{
     padding: 6px 10px;
     color: white;
 }
+
 .red-button a:link, .red-button a:visited{
+    padding: 6px 10px;
     color: white;
+}
+.blue-button{
+    background-color: #2C63ae;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 2.5px;
+}
+.blue-button a:link, .blue-button a:visited{
+    padding: 8px 10px;
+    color: white;
+}
+.blue-button a:hover{
+    background-color: #5482c4;
 }
 
 
@@ -77,12 +95,17 @@ a:link, a:visited{
     text-align: left;
 }
 .content-body h5 h2{
-font-weight: bolder;
+    font-weight: bolder;
 }
 
 
 
 
+#featured-news{
+    margin-top: 20px;
+    width:1000px;
+    padding-right: 20px;
+} 
 .gallery{
     display: flex;
     flex-wrap: row wrap;
@@ -94,6 +117,122 @@ font-weight: bolder;
 .gallery-content{
     width: 250px;
     padding-left: 10px;
+}
+
+
+
+
+.card{
+    width:310px;
+    background-color: white;
+    border-radius: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.card img{
+    width: 100%;
+}
+.card-body{
+    padding: 20px;
+}
+
+
+
+
+.big-card{
+    max-width:930px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.big-card img{
+    width: 100%;
+}
+.big-card ul{
+    list-style-type:square;
+    padding: 14px;
+}
+
+
+
+
+#station-finder{
+    background-color: white;
+    margin-right: 24px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: solid 4px #2C63ae;
+    border-radius: 4px;
+}
+#station-finder h3{
+    font-size: 2em;
+    margin:0;
+}
+
+
+
+
+#bottom-nav{
+    margin-right: 24px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+}
+#bottom-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#bottom-nav ul li{
+    display: inline;
+    margin-right: 7px;
+}
+.navtext{
+    color: #555555;
+}
+
+
+
+
+.card2{
+    width:310px;
+    background-color: white;
+    color: #555555;
+    border-radius: 8px;
+    border-radius: 4px;
+    margin-right: 0;
+}
+.card2 img{
+    width: 100%;
+}
+.card2-body{
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+
+
+
+#bottom{
+    margin-top: 20px;
+    width:1000px;
+    padding-right: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+#bottom ul li{
+    padding-bottom: 15px;
+}
+#bottom ul{
+    list-style: none;
+}
+#bottom ul li a:link{
+    color: #2C63ae;
 }
 
 
